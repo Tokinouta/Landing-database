@@ -48,6 +48,11 @@ namespace HistoryDemo
                     && s.Q == ini.Q
                     && s.R == ini.R
                     && s.Alpha == ini.Alpha
+                    && s.Vk == ini.Vk
+                    && s.XShip == ini.XShip
+                    && s.YShip == ini.YShip
+                    && s.ZShip == ini.ZShip
+                    && s.PsiShip == ini.PsiShip
                 );
 
                 //foreach (var item in s.GetType().GetProperties())

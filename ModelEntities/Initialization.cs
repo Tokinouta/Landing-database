@@ -15,5 +15,10 @@ namespace ModelEntities
         public double Q { get; set; }
         public double R { get; set; }
         public double Alpha { get; set; }
+        public double Vk { get; set; }
+        public double XShip { get; set; }
+        public double YShip { get; set; }
+        public double ZShip { get; set; }
+        public double PsiShip { get; set; }
     }
 }
